@@ -3,7 +3,7 @@ import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
-import { db } from "../firebase"; // import db
+import { db } from "../firebase.js"; // import db
 
 // ----------------- STYLED COMPONENTS -----------------
 const Container = styled.div`
