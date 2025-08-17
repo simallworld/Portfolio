@@ -7,7 +7,7 @@ export const Bio = {
     "Animator",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Motivated Fullstack MERN Developer with expertise in MongoDB, Express.js, React.js, and Node.js. Skilled in building scalable, real-time applications with WebRTC, cloud integration, and modern frameworks. Passionate about learning, problem-solving, and delivering high-quality solutions that drive impactful results.",
   github: "https://github.com/simallworld",
   resume:
     "https://drive.google.com/file/d/1XHmGkC-zRi_MGx-4xFkzUWibb270jirf/view?usp=drivesdk",
@@ -185,7 +185,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4E0BAQFf8wdO_Nv_DQ/company-logo_200_200/0/1645617889823/aptara_logo?e=1727913600&v=beta&t=mERiRSR99LnrVTOxWdvaJRvMf00vced6_glG1E8_p_w",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Mr1EiLQxcknC0zmjgcQUOYFYYy3cpCidRg&s",
     role: "Frontend Developer",
     company: "Aptara corp Pvt. Ltd.",
     date: "Feb 2023 - Present",
@@ -211,7 +211,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQGlqsorsnHyEw/company-logo_200_200/0/1705058999011/erdtechnologies_logo?e=1727913600&v=beta&t=ugDbtwGuVcX_AD_MJRWyq5nI5vcUq3AXAQ7tivd1X5E",
+    img: "https://media.licdn.com/dms/image/v2/C4D05AQFz9qjMJJe4mQ/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1662534399979?e=2147483647&v=beta&t=8PWoq3JoeLtnIyPCOmQClCpl7bbPiVgY2JYSbgkvw8E",
     role: "Electrical Maintenance Engineer",
     company: "ERD Technologies",
     date: "Nov 2022 - Feb 2023",
@@ -227,7 +227,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4E0BAQEGo7CxKSNLXg/company-logo_200_200/0/1634052198385/linkusol_technologies_logo?e=1727913600&v=beta&t=tnssGZcIzH-OrgbiiBXt2ZCAP8uXRBvbEpYZN3xVU_Q",
+    img: "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/iktivenq3fhdxloblxvo",
     role: "UX/UI Internship",
     company: "Linkusol Technologies",
     date: "May 2022 - June 2022",
@@ -292,7 +292,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4E0BAQF8L6g17DlLXQ/company-logo_200_200/0/1630583948436/kanpur_institute_of_technology_logo?e=1727913600&v=beta&t=ulk1ekESjj_yURba6skQrT2T860kM72B9SeE4rhw8Wc",
+    img: "https://pbs.twimg.com/profile_images/1101145497748865027/H6BPbL7s_400x400.png",
     school: "Kanpur Institute of Technology, Rooma-Kanpur",
     date: "Aug 2018 - Jul 2022",
     grade: "8 CGPA",

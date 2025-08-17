@@ -72,8 +72,6 @@ const Skill = styled.div`
     max-width: 330px;
     padding: 10px 36px;
   }
-
-
 `
 
 const SkillTitle = styled.h2`
