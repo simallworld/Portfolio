@@ -143,12 +143,12 @@ const Contact = () => {
 
     try {
       // 1. Send Email via EmailJS
-      await emailjs.sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
-      );
+    await emailjs.sendForm(
+    "service_k9p8lbm",      // Service ID
+    "template_ihefwvl",     // Template ID
+    form.current,           // Your form reference
+    "hXV6034JA6a84UIUK"     // Public key
+  );
 
       // 2. Save to Firebase Firestore
       await addDoc(collection(db, "contacts"), formData);
