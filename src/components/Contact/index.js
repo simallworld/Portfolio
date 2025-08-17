@@ -127,6 +127,7 @@ const ContactButton = styled.input`
 // ----------------- COMPONENT -----------------
 const Contact = () => {
   const [open, setOpen] = useState(false);
+  const [snackbarMessage, setSnackbarMessage] = useState(""); // ✅ dynamic message
   const form = useRef();
 
   const handleSubmit = async (e) => {
@@ -152,10 +153,13 @@ const Contact = () => {
       // 2. Save to Firebase Firestore
       await addDoc(collection(db, "contacts"), formData);
 
+      setSnackbarMessage("✅ Email sent & saved successfully!");
       setOpen(true);
       form.current.reset();
     } catch (error) {
       console.error("Error sending message:", error);
+      setSnackbarMessage("❌ Failed to send message!");
+      setOpen(true);
     }
   };
 
@@ -178,7 +182,7 @@ const Contact = () => {
           open={open}
           autoHideDuration={6000}
           onClose={() => setOpen(false)}
-          message="Email sent & saved successfully!"
+          message={snackbarMessage} // ✅ show success or error
         />
       </Wrapper>
     </Container>
