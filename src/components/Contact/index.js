@@ -3,7 +3,7 @@ import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
-import { db } from "../firebase.js"; // import db
+import { db } from "../../firebase.js"; // import db
 
 // ----------------- STYLED COMPONENTS -----------------
 const Container = styled.div`
@@ -15,7 +15,7 @@ const Container = styled.div`
   align-items: center;
   @media (max-width: 960px) {
     padding: 0px;
-  }
+    }
 `;
 
 const Wrapper = styled.div`
