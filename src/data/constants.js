@@ -10,13 +10,13 @@ export const Bio = {
     "Motivated Fullstack MERN Developer with expertise in MongoDB, Express.js, React.js, and Node.js. Skilled in building scalable, real-time applications with WebRTC, cloud integration, and modern frameworks. Passionate about learning, problem-solving, and delivering high-quality solutions that drive impactful results.",
   github: "https://github.com/simallworld",
   resume:
-    "https://drive.google.com/file/d/1XHmGkC-zRi_MGx-4xFkzUWibb270jirf/view?usp=drivesdk",
-  linkedin: "https://www.linkedin.com/in/er-shivam-swaroop-60083017a/",
+    "https://drive.google.com/file/d/1FfsKMYObB9Xh_PiS5-SqsDjz860JDDdN/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/shivam-swaroop-60083017a/",
   twitter: "https://x.com/shivamswaroop89",
   insta: "https://www.instagram.com/crypted_stranger/",
   facebook: "https://www.facebook.com/shivam.swaroop.73",
   email: "mailto:shivamswaroop89@gmail.com",
-  whatsapp: "https://wa.me/+91 8009618807",
+  whatsapp: "https://wa.me/+918009618807",
 };
 
 export const skills = [
@@ -301,7 +301,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "http://ksickanpur.in/images/ksiclogo.jpeg",
+    img: "https://th.bing.com/th/id/R.b409c017a6b8ed5147f761278d78caef?rik=qmkMYxobKfeS0w&riu=http%3a%2f%2fksickanpur.in%2fimages%2fksiclogo.jpeg&ehk=rJeK8jYRS%2fAjx7Fu1nOVOd1aNqcQomscsNM1ujTipsA%3d&risl=&pid=ImgRaw&r=0",
     school: "Kailas Saraswati Inter College, Kalyanpur-Kanpur",
     date: "Apr 2016 - May 2018",
     grade: "80%",
@@ -310,7 +310,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "http://ksickanpur.in/images/ksiclogo.jpeg",
+    img: "https://th.bing.com/th/id/R.b409c017a6b8ed5147f761278d78caef?rik=qmkMYxobKfeS0w&riu=http%3a%2f%2fksickanpur.in%2fimages%2fksiclogo.jpeg&ehk=rJeK8jYRS%2fAjx7Fu1nOVOd1aNqcQomscsNM1ujTipsA%3d&risl=&pid=ImgRaw&r=0",
     school: "Kailas Saraswati Inter College, Kalyanpur-Kanpur",
     date: "Apr 2014 - Apr 2016",
     grade: "80%",
